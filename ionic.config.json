@@ -1,0 +1,7 @@
+{
+  "name": "tokai-picks-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
