@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { ExploreContainerComponentModule } from '../components/explore-container/explore-container.module';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import {MainSlideComponentModule} from 'src/app/components/home-top-carousel/home-top-carousel.component.module';
-import {PopularVideosComponentModule} from 'src/app/videos-list/videos-list.component.module';
+import {PopularVideosComponentModule} from 'src/app/components/videos-list/videos-list.component.module';
 import {VideoDetailComponentModule} from 'src/app/components/video-detail/video-detail.component.module';
 
 @NgModule({

@@ -8,39 +8,47 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <!-- <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1bbb</ion-title>
-    </ion-toolbar>
-  </ion-header> -->
 
-<ion-grid>
-  <home-top-carousel></home-top-carousel>
-  <!-- <ion-row>
-    <ion-col size="12">
-    </ion-col>
-  </ion-row> -->
-  <ion-row>
-    <ion-col>
-      <div>
-        人気の動画
-        <ion-icon name="chevron-forward-outline"></ion-icon>
-      </div>
-      <div>
-        <videos-list></videos-list>
-      </div>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>
-      <div class="tetsuya-col">
-        てつやコレクション
-      </div>
-      <div>
-        <videos-list></videos-list>
-      </div>
-    </ion-col>
-  </ion-row>
-</ion-grid>
+  <ion-grid>
+    <!-- トップカルーセル -->
+    <ion-row>
+      <ion-col class="ion-margin-bottom">
+        <home-top-carousel></home-top-carousel>
+      </ion-col>
+    </ion-row>
+    <!-- 人気の動画 -->
+    <ion-row>
+      <ion-col class="ion-margin-bottom">
+        <div>
+          人気の動画
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+        <div>
+          <videos-list></videos-list>
+        </div>
+      </ion-col>
+    </ion-row>
+    <!-- 各メンバーの動画 -->
+    <ion-row>
+      <ion-col>
+        <div class="tetsuya-col">
+          てつやコレクション
+        </div>
+        <div>
+          <videos-list></videos-list>
+        </div>
+      </ion-col>
+    </ion-row>
 
+    <ion-row>
+      <ion-col>
+        <div class="tetsuya-col">
+          しばゆーコレクション
+        </div>
+        <div>
+          <videos-list></videos-list>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
