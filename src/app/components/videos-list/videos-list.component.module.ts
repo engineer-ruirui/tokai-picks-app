@@ -2,17 +2,15 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { PopularVideosComponent } from './videos-list.component';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { VideosListComponent } from './videos-list.component';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
-    FormsModule,
-    ExploreContainerComponentModule,
+    FormsModule
   ],
-  declarations: [PopularVideosComponent],
-  exports: [PopularVideosComponent]
+  declarations: [VideosListComponent],
+  exports: [VideosListComponent]
 })
-export class PopularVideosComponentModule {}
+export class VideosListComponentModule {}

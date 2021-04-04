@@ -7,7 +7,7 @@ import { VideoDetailComponent } from 'src/app/components/video-detail/video-deta
   templateUrl: 'videos-list.component.html',
   styleUrls: ['videos-list.component.scss']
 })
-export class PopularVideosComponent {
+export class VideosListComponent {
 
   constructor(
     private modalController: ModalController

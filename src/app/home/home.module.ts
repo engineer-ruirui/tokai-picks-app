@@ -7,7 +7,7 @@ import { ExploreContainerComponentModule } from '../components/explore-container
 
 import { HomePageRoutingModule } from './home-routing.module';
 import {MainSlideComponentModule} from 'src/app/components/home-top-carousel/home-top-carousel.component.module';
-import {PopularVideosComponentModule} from 'src/app/components/videos-list/videos-list.component.module';
+import { VideosListComponentModule } from 'src/app/components/videos-list/videos-list.component.module';
 import {VideoDetailComponentModule} from 'src/app/components/video-detail/video-detail.component.module';
 
 @NgModule({
@@ -18,7 +18,7 @@ import {VideoDetailComponentModule} from 'src/app/components/video-detail/video-
     ExploreContainerComponentModule,
     HomePageRoutingModule,
     MainSlideComponentModule,
-    PopularVideosComponentModule
+    VideosListComponentModule
   ],
   declarations: [HomePage]
 })
